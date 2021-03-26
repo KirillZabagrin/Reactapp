@@ -1,0 +1,19 @@
+.app-wrapper {
+  display: grid;
+  margin: 0 auto;
+  width: 1280px;
+  background-color:#ee1d52;
+  grid-template-areas:
+  "h h"
+  "n o"
+  "n c";
+
+  grid-template-rows: 60px 2px 1fr;
+  grid-template-columns: 180px 1100px;
+}
+
+.app-wrapper-content {
+  
+    grid-area: c;
+    background-color:#608a8d
+  }

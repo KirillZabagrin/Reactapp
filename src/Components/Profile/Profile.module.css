@@ -1,0 +1,14 @@
+.mypage{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+}
+
+.avatar{
+    width: 400px;
+    border-radius: 10px;
+}
+.deskription{
+    padding-top: 20px;
+}
+

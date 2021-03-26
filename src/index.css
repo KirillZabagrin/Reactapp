@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  font-family: 'MyFont';
+  src: local('MyFont'), url(./MyFont/TrajanPro3Light.woff) format('woff');
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 25px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
